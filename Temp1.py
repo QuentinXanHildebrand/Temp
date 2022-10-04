@@ -11,7 +11,7 @@ def f_to_c(temp, name):
 
 #***______Main Code_________***
 user_choice = input("C or F ")
-user_temp = int(input("What temperature? "))
+user_temp = int(input("What temperature C or F? "))
     
 if user_choice == "C":
     output = c_to_f(user_temp)
